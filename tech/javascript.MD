@@ -244,6 +244,8 @@ A click on the inner `<p>` first runs onclick:
 > So if we click on `<p>`, then we’ll see 3 alerts.
 The process is called “bubbling”, because of events “bubble” from the inner element up through parents like a bubble in the water.
 
+For more info & reference
+[Javascript - Bubbling and capturing](https://javascript.info/bubbling-and-capturing)
 </details>
 
 ### 13. What is NaN in Javascript? :star:
