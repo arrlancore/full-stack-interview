@@ -222,6 +222,7 @@ modifyArray(arr, function() {
     </summary>
 When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
 
+
 Event bubbling is a type of event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors of the target element in the same nesting hierarchy till it reaches the outermost DOM element or document object.
 
 Let’s say, we have 3 nested elements `FORM > DIV > P` with a handler on each of them:
@@ -241,7 +242,7 @@ A click on the inner `<p>` first runs onclick:
 4. And so on upwards till the document object.
 
 > So if we click on `<p>`, then we’ll see 3 alerts.
-The process is called “bubbling”, because events “bubble” from the inner element up through parents like a bubble in the water.
+The process is called “bubbling”, because of events “bubble” from the inner element up through parents like a bubble in the water.
 
 </details>
 
